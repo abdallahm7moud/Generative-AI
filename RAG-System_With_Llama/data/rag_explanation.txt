@@ -1,0 +1,31 @@
+
+        # Retrieval-Augmented Generation (RAG)
+        
+        Retrieval-Augmented Generation (RAG) is an AI framework that enhances large language models
+        by incorporating external knowledge retrieval into the generation process. It was introduced
+        by researchers at Facebook AI in 2020.
+        
+        ## Core Components
+        
+        1. **Document Store**: A collection of documents containing domain-specific knowledge.
+        2. **Retriever**: A system that finds relevant documents or passages based on a query.
+        3. **Generator**: A language model that produces responses using the retrieved information.
+        4. **Embedding Model**: Converts text into vector representations for similarity matching.
+        5. **Vector Database**: Efficiently stores and indexes embeddings for quick retrieval.
+        
+        ## Advantages of RAG
+        
+        - Reduces hallucinations by grounding responses in factual information
+        - Enables access to up-to-date information beyond the model's training data
+        - Allows incorporation of domain-specific knowledge
+        - Provides transparency through explicit source attribution
+        - More cost-effective than continuous model retraining
+        
+        ## Implementation Approaches
+        
+        There are several ways to implement RAG systems:
+        
+        - **Basic RAG**: Simple retrieval followed by generation
+        - **Advanced RAG**: Includes query reformulation, multi-step retrieval, and reranking
+        - **Hybrid Approaches**: Combines fine-tuning with retrieval for specialized domains
+        
